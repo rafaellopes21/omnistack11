@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (request, response) => {
-   //Posso retornar assim (enviamdo msg)
+   //Posso retornar assim (enviamdo msg).
   //  return response.send('Hello Word');
 
     //Ou posso retornar enviando JSON
